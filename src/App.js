@@ -1,26 +1,19 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import MovieCard from './MovieCard'
+import './App.css'
 
-function App() {
+const API_KEY = 'c2ecec45'
+const API_URL = 'https://www.omdbapi.com'
+const MOVIE_ID = 'tt0120623'
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <div className='container'>
+        <MovieCard />
+      </div>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
