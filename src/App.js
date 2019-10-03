@@ -4,7 +4,7 @@ import './App.css'
 
 const API_KEY = 'c2ecec45'
 const API_URL = 'https://www.omdbapi.com'
-const MOVIE_ID = 'tt0120623'
+const MOVIE_ID = 'tt0816692'
 
 const App = () => {
   return (
