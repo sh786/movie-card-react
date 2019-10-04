@@ -10,7 +10,7 @@ const App = () => {
   return (
     <div className='App'>
       <div className='container'>
-        <MovieCard />
+        <MovieCard apiKey={API_KEY} apiUrl={API_URL} movieID={MOVIE_ID} />
       </div>
     </div>
   )
